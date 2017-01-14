@@ -21,12 +21,13 @@ function nominationTool( e ) {
   e.preventDefault();
 
   // Google Forms constants
-  var GOOGLE_FORMS_URL = 'https://docs.google.com/forms/d/1udxf9C7XeO7rm-SoucjDIv0c8XzGb7VVutsCI8r4s-Y/formResponse?ifq';
-  var NAME_FIELD = '&entry.1227505863=';
-  var EMAIL_FIELD = '&entry.1975141568=';
-  var EVENTNAME_FIELD = '&entry.1518336548=';
-  var URL_FIELD = '&entry.1767515686=';
-  var TITLE_FIELD = '&entry.180917746=';
+  var GOOGLE_FORMS_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSflojxTxupymTY1ZIJfj4NM7BgXWc-RDg5dg0Yyf1wzx8AvqA/formResponse?ifq';
+  var NAME_FIELD = '&entry.604638068=';
+  var EMAIL_FIELD = '&entry.582835473=';
+  var EVENTNAME_FIELD = '&entry.1800984457=';
+  var URL_FIELD = '&entry.242612017=';
+  var TITLE_FIELD = '&entry.1562922032=';
+
   var NOTIFICATION_TOOL_URL = 'http://digital2.library.unt.edu/nomination/eth2016/url/';
   var AGENCY_FIELD = '&entry.1285343614=';
   var AGENCY_ID = '&entry.536064408=';
