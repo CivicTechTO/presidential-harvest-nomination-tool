@@ -36,7 +36,7 @@ function nominationTool( e ) {
   var SUBORG_ID = '&entry.1768657731=';
   var SUBPRIMER_ID = '&entry.615621344=';
   var CRAWLABLE_ID = "&entry.2059306163=";
-  
+
   var title = $( '#title' ).val();
   var name = $( '#name' ).val();
   var email = $( '#email' ).val();
@@ -51,7 +51,7 @@ function nominationTool( e ) {
   var suborgID = $( '#suborgID' ).val();
   var subprimerID = $( '#subprimerID' ).val();
   var crawlableID = $( '#crawlableID').val();
-  
+
   if ( localStorage.name !== name ) {
     localStorage.name = name;
   }
@@ -64,7 +64,7 @@ function nominationTool( e ) {
   if ( localStorage.agency !== agency ) {
     localStorage.agency = agency;
   }
-  
+
   if ( localStorage.agencyID !== agencyID ) {
     localStorage.agencyID = agencyID;
   }
@@ -87,7 +87,7 @@ function nominationTool( e ) {
   if(document.getElementById('crawlableID').checked) {
     crawlableText = CRAWLABLE_ID + crawlableID
   }
-  
+
   // Do GET call to post to Google Form and open new tab
   $.get( {
     url: GOOGLE_FORMS_URL + NAME_FIELD + localStorage.name + EMAIL_FIELD + localStorage.email + TITLE_FIELD + title + EVENTNAME_FIELD +
