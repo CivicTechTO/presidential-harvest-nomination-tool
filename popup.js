@@ -50,7 +50,7 @@ function nominationTool( e ) {
   var organizationID = $( '#organizationID' ).val();
   var suborgID = $( '#suborgID' ).val();
   var subprimerID = $( '#subprimerID' ).val();
-  var crawlableID = $( '#crawlableID').val();
+  var crawlableID = $( '#crawlableID:checked' ).val();
 
   if ( localStorage.name !== name ) {
     localStorage.name = name;
@@ -95,7 +95,7 @@ function nominationTool( e ) {
   data[ORGANIZATION_ID] = organizationID;
   data[SUBORG_ID] = suborgID;
   data[SUBPRIMER_ID] = subprimerID;
-  data[CRAWLABLE_ID] = $('#crawlableID:checked').val();
+  data[CRAWLABLE_ID] = crawlableID;
 
   // Do GET call to post to Google Form and open new tab
   $.get( {
