@@ -44,7 +44,7 @@ function nominationTool( e ) {
   // var eventName = "Guerilla Archiving Toronto Dec. 17"
   var eventName = $( '#eventName' ).val();
   var currentURL = $( '#url' ).val();
-  var agency = $( '#agency option:selected' ).text();
+  var agency = $( '#agency' ).val();
   var agencyID = $( '#agencyID' ).val();
   var subAgencyID = $( '#subAgencyID' ).val();
   var organizationID = $( '#organizationID' ).val();
