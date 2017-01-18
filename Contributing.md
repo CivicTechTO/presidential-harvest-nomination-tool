@@ -11,7 +11,7 @@ You can use this tool as currently designed for your own event. At present, it p
   const GOOGLE_FORMS_URL = 'https://docs.google.com/forms/d/1kuwxu2lXYSRpkwBj4o9kwjURZL3hgk-mSFoK4qkC4ZI/formResponse';
 ```
 
-2. For each field name, you will have to identify the corresponding field entry id and update the various field-relate variables. In your browser's developer tools pane, `inspect element` on the input field. You should see `entry.[integer]` in the highlighted code. That is the value for the entry field ID.
+2. For each field name, you will have to identify the corresponding field entry id and update the various field-related variables. In your browser's developer tools pane, `inspect element` on the input field. You should see `entry.[integer]` in the highlighted code. That is the value for the entry field ID.
 
 3. The first time a user nominates a seed, they will choose a government agency. Subsequent nominations will default to that same agencies, but the default list here is extensive. If you are modifying the extension anyway, you may want to filter out this list in the `#agency` field of `popup.html`.
 
