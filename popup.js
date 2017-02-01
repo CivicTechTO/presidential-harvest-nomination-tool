@@ -37,7 +37,8 @@ function nominationTool( e ) {
   const SUBPRIMER_ID = 'entry.615621344';
   const FTP_ID = 'entry.365628902';
   const VISUALIZATION_ID = 'entry.2057247667';
-  const DIFFICULTY_ID = 'entry.2057247667';
+  const DIFFICULTY_ID = 'entry.1702958174';
+  const COMMMENT_ID = 'entry.2034225983';
   //const CRAWLABLE_ID = 'entry.2059306163';
 
   var title = $( '#title' ).val();
@@ -54,6 +55,9 @@ function nominationTool( e ) {
   var suborgID = $( '#suborgID' ).val();
   var subprimerID = $( '#subprimerID' ).val();
   var ftpID = $( '#ftpID:checked' ).val();
+  var visualizationID = $( '#visualizationID:checked').val();
+  var difficultyID = $( '#difficultyID:checked').val();
+  var commentID = $ ( '#commentID').val();
 
   if ( localStorage.name !== name ) {
     localStorage.name = name;
@@ -98,8 +102,11 @@ function nominationTool( e ) {
   data[ORGANIZATION_ID] = organizationID;
   data[SUBORG_ID] = suborgID;
   data[SUBPRIMER_ID] = subprimerID;
-  data[CRAWLABLE_ID] = crawlableID;
+  //data[CRAWLABLE_ID] = crawlableID;
   data[FTP_ID] = ftpID;
+  data[VISUALIZATION_ID] = visualizationID;
+  data[DIFFICULTY_ID] = difficultyID;
+  data[COMMMENT_ID] = commentID;
 
   // Do GET call to post to Google Form and open new tab
   $.get( {
