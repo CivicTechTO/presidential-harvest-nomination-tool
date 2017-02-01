@@ -1,11 +1,13 @@
 <!doctype html>
 <link rel="stylesheet" href="src/lib/bootstrap-3.3.7.min.css">
 <style type="text/css">
-#nominationTool { width: 350px; padding: 5px;}
+#nominationTool { width: 500px; padding: 5px;}
 #success { color: green; }
 #error { color: red; }
 div.quick-col {max-width: 48%; padding-right:2%; float:left;}
 div.clear{clear:both;}
+div.half {max-width: 50%; float:left;}
+input.checkbox {width:100%; margin-left:auto; margin-right:auto;}
 .form-group {margin-bottom: 10px;}
 .agency-code input, #subprimerID { width: 70px; display: inline-block; }
 html, body {min-height: 600px;}
@@ -570,21 +572,21 @@ html, body {min-height: 600px;}
           </select>
         </div>
         <!-- Name -->
-        <div class="form-group">
+        <div class="form-group quick-col">
           <label for="name">
             Your Name
           </label>
           <input required type="text" class="form-control" id="name" name="name"/>
         </div>
         <!-- Email -->
-        <div class="form-group">
+        <div class="form-group quick-col">
           <label for="email">
             Email address
           </label>
           <input required type="email" class="form-control" id="email" name="email"/>
         </div>
         <!-- Event Name -->
-        <div class="form-group">
+        <div class="form-group clear">
           <label for="eventName">
             Event Name
           </label>
@@ -601,36 +603,34 @@ html, body {min-height: 600px;}
           <input required type="number" min="0" max="99" class="form-control" id="organizationID" name="organizationID"/>
           <input type="number" min="0" max="99" class="form-control" id="suborgID" name="suborgID"/>
         </div>
-        <!-- Sub-Primer Num -->
-        <!-- NOTE: This is the only field that is NOT required to submit the form. -->
-        <div class="quick-col form-group">
-          <label for="subprimerID">
-            Sub-Primer Num
-          </label>
-          <br>
-          <input type="number" class="form-control" id="subprimerID" name="subprimerID"/>
-        </div>
        <div class="container">
         <div class="quick-col form-group">
           <label for="ftpID">
             FTP
           </label>
           <br>
-          <input type="checkbox" id="ftpID" name="ftpID" value="Yes"/>
-        </div>
-        <div class="quick-col form-group">
-          <label for="visualizationID">
-            Visualization
-          </label>
-          <br>
-          <input type="checkbox" id="visualizationID" name="visualizationID" value="Yes"/>
+          <input type="checkbox" class="checkbox" id="ftpID" name="ftpID" value="Yes"/>
         </div>
         <div class="quick-col form-group">
           <label for="difficultyID">
-            Complex/Hard
+            Many Files
           </label>
           <br>
-          <input type="checkbox" id="difficultyID" name="difficultyID" value="Yes"/>
+          <input type="checkbox" class="checkbox" id="difficultyID" name="difficultyID" value="Yes"/>
+        </div>
+        <div class="quick-col form-group">
+          <label for="databaseID">
+            Database
+          </label>
+          <br>
+          <input type="checkbox" class="checkbox" id="databaseID" name="databaseID" value="Yes"/>
+        </div>
+        <div class="quick-col form-group">
+          <label for="visualizationID">
+            Visualization/Interactive
+          </label>
+          <br>
+          <input type="checkbox" class="checkbox" id="visualizationID" name="visualizationID" value="Yes"/>
         </div>
       </div>
       <div class="form-group">

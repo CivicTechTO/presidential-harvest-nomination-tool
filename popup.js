@@ -38,6 +38,7 @@ function nominationTool( e ) {
   const FTP_ID = 'entry.365628902';
   const VISUALIZATION_ID = 'entry.2057247667';
   const DIFFICULTY_ID = 'entry.1702958174';
+  const DATABASE_ID = 'entry.15716096';
   const COMMMENT_ID = 'entry.2034225983';
   //const CRAWLABLE_ID = 'entry.2059306163';
 
@@ -57,6 +58,7 @@ function nominationTool( e ) {
   var ftpID = $( '#ftpID:checked' ).val();
   var visualizationID = $( '#visualizationID:checked').val();
   var difficultyID = $( '#difficultyID:checked').val();
+  var databaesID = $( '#databaseID:checked').val();
   var commentID = $ ( '#commentID').val();
 
   if ( localStorage.name !== name ) {
@@ -106,6 +108,7 @@ function nominationTool( e ) {
   data[FTP_ID] = ftpID;
   data[VISUALIZATION_ID] = visualizationID;
   data[DIFFICULTY_ID] = difficultyID;
+  data[DATABASE_ID] = difficultyID;
   data[COMMMENT_ID] = commentID;
 
   // Do GET call to post to Google Form and open new tab
