@@ -1,8 +1,8 @@
 [![Chrome Web Store](https://img.shields.io/badge/chrome--web--store-v%200.0.4.1-blue.svg)](https://chrome.google.com/webstore/detail/nominationtool/abjpihafglmijnkkoppbookfkkanklok)
 # 2016 Presidental Harvest - Nomination Tool
 
-Developers please see [Contributing and Forking This Tool](./Contributing.md)
-For usage skip straight to [Usage Instructions](#Usage))
+Developers please see [Contributing and Forking This Tool](./Contributing.md)  
+For usage skip straight to [Usage Instructions](#Usage)
 
 ## What is this?
 
@@ -34,7 +34,7 @@ We have published a version of the chrome Extension [on the Chrome Store](https:
 
 1. The Sub-primer Num should be filled in correspondingly to the particular numbered link in the subprimer you're working with. If the page contains uncrawlable content, note that by selecting one or a combination of the four checkboxes. On subsequent uses, these will also be pre-filled, though you can alter them at any time just by choosing something else.
 
-![Here](docs/img/eot-nomination-ui-006.png)
+<img src="./docs/img/eot-nomination-ui-006.png" width="250" />
 
 The four toggles to indicate uncrawlable content are, with an example of each linked:  
   1) [FTP](ftp://ftp.aoml.noaa.gov/phod/pub/ARGO_FTP/argo)  
