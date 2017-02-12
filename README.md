@@ -28,13 +28,13 @@ We have published a version of the chrome Extension [on the Chrome Store](https:
 
 1. Go to the URL that you wish to nominate
 
-1. Click the extension icon near the address bar (the icon looks like a black magnifying glass). A form will pop up beneath the icon. The title and URL will be autofilled with the current URL of the tab, and once you have submitted the form one time, your name/email/event information will also be pre-filled. 
+1. Click the extension icon near the address bar (the icon looks like a black magnifying glass). A form will pop up beneath the icon. The title and URL will be autofilled with the current URL of the tab, and once you have submitted the form one time, your name/email/event information will also be pre-filled.
 
 1. If you're working with an EDGI subprimer ([found here](https://envirodatagov.org/agency-forecasts/)), you should fill-in the corresponding Agency Office Code that relates to particular subprimers. Filling in the code will autocomplete the agency in the dropdown above.
 
 1. The Sub-primer Num should be filled in correspondingly to the particular numbered link in the subprimer you're working with. If the page contains uncrawlable content, note that by selecting one or a combination of the four checkboxes. On subsequent uses, these will also be pre-filled, though you can alter them at any time just by choosing something else.
 
-![Here](docs/img/eot-nomination-ui-0.06.png)
+![Here](docs/img/eot-nomination-ui-006.png)
 
 The four toggles to indicate uncrawlable content are, with an example of each linked:  
   1) [FTP](ftp://ftp.aoml.noaa.gov/phod/pub/ARGO_FTP/argo)  
