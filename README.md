@@ -2,7 +2,7 @@
 
 # 2016 Presidental Harvest - Nomination Tool
 
-**Developers**, please see [Contributing and Forking This Tool](./Contributing.md)  
+Developers, please see [Contributing and Forking This Tool](./Contributing.md)  
 For usage, skip straight to [Usage Instructions](#usage)
 
 ## What is this?
@@ -31,7 +31,7 @@ We have published a version of the chrome Extension [on the Chrome Store](https:
 
 1. Click the extension icon near the address bar (the icon looks like a black magnifying glass). A form will pop up beneath the icon. The title and URL will be autofilled with the current URL of the tab. Once you have submitted the form, your name/email/event information will also be pre-filled.
 
-1. If you're working with an EDGI subprimer ([found here](https://envirodatagov.org/agency-forecasts/)), you should fill-in the corresponding Agency Office Code that relates to the particular subprimers. Filling in the code will autocomplete the agency in the dropdown above.
+1. If you're working with an EDGI subprimer ([found here](https://envirodatagov.org/agency-forecasts/)), you should fill-in the corresponding Agency Office Code that relates to particular subprimers. Filling in the code will autocomplete the agency in the dropdown above.
 
 1. Fill in the subprimer field with the corresponding numbered link in the subprimer you're working with. 
 
