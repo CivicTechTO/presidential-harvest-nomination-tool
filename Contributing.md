@@ -2,12 +2,12 @@
 
 We love improvements to our tools! EDGI has general [guidelines for contributing](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) to all of our organizational repos. 
 
-In contrast to earlier instructions, _we no longer encourage collaborators to publish their own forks to the Google Chrome Store_. Instead, please just be sure to co-ordinate with EDGI before the event, so we know you will be pushing seeds to our spreadsheet, and to request read access to the results if you don't already have it.  On the other hand, we would still love to have your help improving this extesion!
+In contrast to earlier instructions, _we no longer encourage collaborators to publish their own forks to the Google Chrome Store_. Instead, please just be sure to co-ordinate with EDGI before the event, so we know you will be pushing seeds to our spreadsheet, and to request read access to the results if you don't already have it.  On the other hand, we would still love to have your help improving this extension!
 
 ## Installing from source
 
 1.	Download or Clone this repo: https://github.com/CivicTechTO/presidential-harvest-nomination-tool
-<img src="https://raw.githubusercontent.com/mi-lee/presidential-harvest-nomination-tool/master/docs/img/gitclone.png" width="700" align="middle")/>
+<img src="https://raw.githubusercontent.com/mi-lee/presidential-harvest-nomination-tool/master/docs/img/gitclone.png" width="700" align="middle"/>
 
 2. In Google Chrome Menu -> `Settings` -> `Extensions`, enable Developer Mode
 
