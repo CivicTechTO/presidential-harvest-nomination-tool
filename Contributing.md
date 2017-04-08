@@ -23,10 +23,7 @@ In contrast to earlier instructions, _we no longer encourage collaborators to pu
 
 ## How it works
 
-+ The extension sends the form information to a Google Form, which saves responses to a Google spreadsheet. 
-+ The extension's form is in `popup.html`, while the variables mapping our form elements to the Google Form are in `popup.js`.
-+ `content.js` and `event.js` work together to retrieve the title and URL of the page loaded in the current browser tab. 
-+ `src/lib/` contains a copy of jquery, which we use for some basic plumbing.
+The extension sends the form information to a Google Form, which saves responses to a Google spreadsheet. The extension's form is in `popup.html`, while the variables mapping our form elements to the Google Form are in `popup.js`. `content.js` and `event.js` work together to retrieve the title and URL of the page loaded in the current browser tab. `src/lib/` contains a copy of jquery, which we use for some basic plumbing.
 
 ## Forking, if you have to
 
