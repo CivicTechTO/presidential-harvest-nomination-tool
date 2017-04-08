@@ -14,7 +14,7 @@ In contrast to earlier instructions, _we no longer encourage collaborators to pu
 2. Click `Load unpacked extension`
 <img src="https://raw.githubusercontent.com/mi-lee/presidential-harvest-nomination-tool/master/docs/img/loadExtension.png" width="700" align="middle"/>
 
-3. Choose the folder containing the extension files, and click select
+3. Choose the folder containing the extension files, and click `Select`
 <img src="https://raw.githubusercontent.com/mi-lee/presidential-harvest-nomination-tool/master/docs/img/selectDirectory.png" width="700" align="middle"/>
 
 4. Extension should appear now
@@ -23,14 +23,17 @@ In contrast to earlier instructions, _we no longer encourage collaborators to pu
 
 ## How it works
 
-The extension sends form information to a Google Form, which saves responses to a Google spreadsheet. The extension's form is in `popup.html`, while the variables mapping our form elements to the Google Form are in `popup.js`. `content.js` and `event.js` work together to retrieve the title and URL of the page loaded in the current browser tab. `src/lib/` contains a copy of jquery, which we use for some basic plumbing.
++ The extension sends the form information to a Google Form, which saves responses to a Google spreadsheet. 
++ The extension's form is in `popup.html`, while the variables mapping our form elements to the Google Form are in `popup.js`.
++ `content.js` and `event.js` work together to retrieve the title and URL of the page loaded in the current browser tab. 
++ `src/lib/` contains a copy of jquery, which we use for some basic plumbing.
 
 ## Forking, if you have to
 
 If for some reason you desperately want to fork the tool, you can do so this way:
 
 1. Create your own Google Form.  You can copy [ours](https://docs.google.com/forms/d/1kuwxu2lXYSRpkwBj4o9kwjURZL3hgk-mSFoK4qkC4ZI/edit), or create your own from scratch
-    * Once you've created a form, Google will automagically create a spreadsheet in which to store the responses. You can also use the fancy response visualizations tool to get some basic information about submissions.
+    * Once you've created a form, Google will automagically create a spreadsheet to store the responses. You can also use the fancy response visualization tool to get some basic information about submissions.
   * Make note of the form URL. In `popup.js`, update the `GOOGLE_FORMS_URL` variable with the new URL, taking care to **replace the final `edit` with `/formResponse`**.
 
   The line you're looking for looks like this:
@@ -40,7 +43,7 @@ If for some reason you desperately want to fork the tool, you can do so this way
 
 2. For each field name, you will have to identify the corresponding field entry id and update the various field-related variables. In your browser's developer tools pane, `inspect element` on the input field. You should see `entry.[integer]` in the highlighted code. That is the value for the entry field ID.
 
-3. The first time a user nominates a seed, they will choose a government agency subagency, organization, and possibly suborganization. Subsequent nominations will default to these same values. 
+3. The first time a user nominates a seed, they will choose a government agency, subagency, organization, and possibly suborganization. Subsequent nominations will default to these same values. 
 
 4. If you're modifying this extension for  non-environment-related event, you will probably want to imitate or extend the EDGI agency taxonomy. Contact us for more information, and/or read our [agency primers](https://envirodatagov.org/agency-forecasts/), which you will want to modify. 
 
